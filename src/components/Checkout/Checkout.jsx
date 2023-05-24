@@ -12,7 +12,7 @@ const Checkout = () => {
   const productDetails = [
     {
       id: 14332,
-      name: "Sony Bravia TV",
+      name: "LG TV",
       imageUrl:
         "https://shopatsc.com/cdn/shop/products/01-W830K-logo-v2_1024x1024@2x.jpg?v=1651239174",
       cost: 20000,
