@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+
 import "./Navbar.css";
 
 const Navbar = () => {
@@ -15,7 +16,7 @@ const Navbar = () => {
           <div className="header-wrapper">
             <div className="logo">
               <Link to="/" className="text-decoration-none">
-                InstaShop
+                InstaMart
               </Link>
             </div>
             <div className="user-actions">
