@@ -1,0 +1,28 @@
+In case you are creeating a new repo:
+
+1a.run git init inside the folder you want to push to github 
+1. Create a empty repo on github
+2. Set your local repo to track the remote repo
+   git remote add origin https://github.com/mrigank94/ecomm-app.git
+3. checkout to master branch
+4. Push the changes
+5. For any other change, Steps same from #2 in next section
+
+
+
+
+In case you are working on existing repo:
+
+1. Clone the repo using git clone
+2. Checkout from master to a new branch
+3. Make your code changes in the new branch
+4. git add <files>
+5. git commit -m "message"
+6. git push --set-upstream origin <branchname>
+7. Open a pull request on Github and add reviewers
+8. If the reviewers have any comments, then you make the changes, create a new commit 
+   and push your changes again
+9. Merge your pull request
+10. Checkout back to master.
+11. Refresh master with git pull origin master
+12. Same cycle repeats from #2 
